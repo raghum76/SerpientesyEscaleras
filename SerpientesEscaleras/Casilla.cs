@@ -23,7 +23,7 @@ namespace SerpientesEscaleras
 
         public bool esEscaleraoSerpiente()
         {
-            if (posicionfinal == 0)
+            if (posicionfinal == posicioninicial) //en lugar de comparar con 0, deberías checar si inicia y termina donde mismo
             {
                 return false;
             }
