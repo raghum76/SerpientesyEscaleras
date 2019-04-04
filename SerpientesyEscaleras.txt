@@ -1,0 +1,45 @@
+	Ejemplo
+j1 en 4
+j2 em 5 escalera a 50
+j1 en 8
+j2 en 53
+j1 dado en 3 cae en 11 escalera a 25
+
+	Clases
+Tablero
+Dado
+Jugador
+Juego <<< Va en el Form
+	1 tablero= new Tablero()
+	2 jugadores j1= new Jugador(), j2= new Jugador();
+	1 dado = nwe Dado()
+
+Dado(){
+static random
+public lanzar
+aleat 1 a 6
+}
+
+Jugador(){
+posicion
+numero
+avanzar(dado)
+	this.pos+dado.lanzar();
+}
+
+while (j1<100 y j2<100)
+{
+j1.posi+=dado.lanzar();
+//checarCasilla[j1.pos]
+}	
+
+
+En el form (esto no es para serpientes y escaleras, sólo es un ejemplo de como puedes buscar cosas)
+private void Boton_Click(object sender, ){
+	int i;
+	i = Convert.ToInt32(textBox1.Text);
+	Button b = (Button)
+	this.Controls.Find("Button" + i,true)[0];
+	b.Text = "J1";
+	groupBox1.Visible = true;
+}
