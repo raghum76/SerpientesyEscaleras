@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace SerpientesEscaleras
 {
+    ///clase dado
     class Dado
     {
         private Random Random = new Random();
 
-        public Dado()
-        {
-        }
 
         public int Lanzar()
         {
